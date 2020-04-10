@@ -13,7 +13,7 @@ import org.springframework.web.client.RestTemplate;
 @RestController
 public class CodestateApplication {
 
-	final static String serverUrl = "http://localhost:9090";
+	final static String serverUrl = "http://dataservice.default.svc.cluster.local";
 
 	public static void main(String[] args) {
 		SpringApplication.run(CodestateApplication.class, args);
